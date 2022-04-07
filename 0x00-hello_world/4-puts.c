@@ -2,7 +2,8 @@
 #include <string.h>
 
 /**
- * A function that displays a string on standard output
+ * main - A function that displays a string on standard output
+ * Return: It returns the value 0
  */
 int main(void)
 {
