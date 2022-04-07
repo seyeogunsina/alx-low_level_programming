@@ -1,5 +1,5 @@
-#header <stdio.h>
-#header <string.h>
+#include <stdio.h>
+#include <string.h>
 /**
  * main - a function displays a sting on the standard output with printf
  * Return: It returns the integer 0
