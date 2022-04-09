@@ -17,9 +17,10 @@ int main(void)
 	{
 		for (j = 0; j <= 9; j++)
 		{
+			resi
 			for (m = 0; m <= 9; m++)
 			{
-				for (n = 0; n <= 9; n++)
+				for (n = 1; n <= 9; n++)
 				{
 					putchar(i + '0');
 					putchar(j + '0');
