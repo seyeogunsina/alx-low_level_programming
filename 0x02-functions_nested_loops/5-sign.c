@@ -2,6 +2,7 @@
 #include <string.h>
 
 void print_sign(int n);
+int _putchar(char c);
 
 /**
  * print_sign - a function that prints the sign of a number
@@ -13,17 +14,17 @@ void print_sign(int n)
 {
 	if (n > 0)
 	{
-		returns (1);
-		putchar('+');
+		return (1);
+		_putchar('+');
 	}
 	else if (n < 0)
 	{
-		returns (0-1);
-		putchar('-');
+		return (0-1);
+		_putchar('-');
 	}
 	else
 	{
-		returns (0);
-		putchar('0');
+		return (0);
+		_putchar('0');
 	}
 }
