@@ -4,7 +4,7 @@
 void print_alphabet(void);
 
 /**
- * print_alphabet - 
+ * print_alphabet - prints lowercase alphabets
  * Return: void
  */
 
@@ -12,7 +12,7 @@ void print_alphabet(void)
 {
 	char ch;
 
-	for (ch = 'a';ch <= 'z'; ch++)
+	for (ch = 'a'; ch <= 'z'; ch++)
 	{
 		putchar(ch);
 	}
