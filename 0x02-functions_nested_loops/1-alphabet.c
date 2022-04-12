@@ -21,16 +21,11 @@ int main(void)
 
 void print_alphabet(void)
 {
-	char alphabets[27];
-	int len;
-	int i;
+	char ch;
 
-	alphabets = [a..z];
-	len = strlen(alphabets);
-
-	for (i = 0; i < len; i++)
+	for (ch = 'a';ch <= 'z'; ch++)
 	{
-		_putchar(alphabets[i]);
+		_putchar(ch);
 	}
 
 	putchar('\n');
