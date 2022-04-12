@@ -12,20 +12,18 @@ void jack_bauer(void)
 
 	for (i = 0; i < 24; i++)
 	{
-		if (i < 10)
-		{
-			putchar('0');
-			putchar('0' + i);
-		}
-		else
-		{
-			putchar('0' + i);
-		}
-		
-		putchar(':');
-
 		for (j = 0; j < 60; j++)
 		{
+			if (i < 10)
+			{
+				putchar('0');
+				putchar('0' + i);
+			}
+			else
+			{
+				putchar('0' + i);
+			}
+			puthcar(':')
 			if (j < 10)
 			{
 				putchar('0');
