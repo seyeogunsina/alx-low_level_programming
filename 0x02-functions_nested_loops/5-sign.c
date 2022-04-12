@@ -9,7 +9,7 @@ int print_sign(int n);
  * Return: 1 for positive, -1 for negative, and 0 for 0
  */
 
-int print_sign(int n)
+void print_sign(int n)
 {
 	if (n > 0)
 	{
@@ -26,6 +26,4 @@ int print_sign(int n)
 		putchar('0');
 		putchar('0');
 	}
-
-	return (0);
 }
