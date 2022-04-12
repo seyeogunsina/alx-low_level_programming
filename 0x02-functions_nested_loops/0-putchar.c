@@ -10,8 +10,9 @@ int main(void)
 {
 	char str_o[] = "_putchar";
 	int i;
+	int len = strlen(str_o);
 
-	for (i = 0; i <= strlen(str_o); i++)
+	for (i = 0; i <= len; i++)
 	{
 		putchar(str_o[i];
 	}
