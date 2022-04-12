@@ -21,7 +21,9 @@ void jack_bauer(void)
 			}
 			else
 			{
-				putchar('0' + i);
+				if (i/10)
+					print(i/10);
+				putchar(i % 10 + '0');
 			}
 			putchar(':');
 			if (j < 10)
@@ -31,7 +33,9 @@ void jack_bauer(void)
 			}
 			else
 			{
-				putchar('0' + j);
+				if (j/10)
+					print(j/10);
+				putchar(j % 10 + '0');
 			}
 
 			putchar('\n');
