@@ -4,17 +4,6 @@
 void print_alphabet(void);
 
 /**
- * main - prints alphabets in lowercase
- * Return: 0
- */
-
-int main(void)
-{
-	print_alphabet();
-	return (0);
-}
-
-/**
  * print_alphabet - 
  * Return: void
  */
