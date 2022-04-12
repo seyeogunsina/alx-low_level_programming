@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 
-int print_sign(int n);
+void print_sign(int n);
 
 /**
  * print_sign - a function that prints the sign of a number
