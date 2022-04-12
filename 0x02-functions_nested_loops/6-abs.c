@@ -9,10 +9,8 @@ int _abs(int);
  * Return: the absolute value
  */
 
-int _abs(int)
+int _abs(int n)
 {
-	int n;
-
 	if (n < 0)
 		return (-1 * n);
 	else
