@@ -14,7 +14,7 @@ int main(void)
 
 	for (i = 0; i <= len; i++)
 	{
-		putchar(str_o[i];
+		putchar(str_o[i]);
 	}
 
 	return (0);
