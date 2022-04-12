@@ -5,7 +5,7 @@ int _abs(int);
 
 /**
  * _abs - returns the absolute value
- * @: receives  a parameter input
+ * @n: receives  a parameter input
  * Return: the absolute value
  */
 
