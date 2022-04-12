@@ -12,7 +12,7 @@ int main(void)
 	int i;
 	int len = strlen(str_o);
 
-	for (i = 0; i <= len; i++)
+	for (i = 0; i < len; i++)
 	{
 		putchar(str_o[i]);
 	}
