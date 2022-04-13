@@ -1,6 +1,6 @@
 #include "main.h"
 
-int print(int n);
+void print(int n);
 /**
  * jack_bauer - prints every minutes of the day
  * returns: void
@@ -23,7 +23,7 @@ void jack_bauer(void)
 	}
 }
 
-int print(int n)
+void print(int n)
 {
 	if (n < 10)
 	{
