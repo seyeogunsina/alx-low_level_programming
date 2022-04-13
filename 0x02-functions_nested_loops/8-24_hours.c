@@ -15,9 +15,25 @@ void jack_bauer(void)
 	{
 		for (j = 0; j < 60; j++)
 		{
-			print(i);
+			if (i < 10)
+			{
+				_putchar('0');
+				_putchar('0' + i);
+			}
+			else if (i >= 10)
+			{
+				print(i);
+			}
 			_putchar(':');
-			print(j);
+			if (j < 10)
+			{
+				_putchar('0');
+				_putchar('0' + j);
+			}
+			else if (j >= 10)
+			{
+				print(j);
+			}
 			_putchar('\n');
 		}
 	}
