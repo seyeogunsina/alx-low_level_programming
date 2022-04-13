@@ -50,7 +50,7 @@ void print(int n)
 void print_char(int j)
 {
 	print(j);	
-	if (n != 98)
+	if (j != 98)
 	{
 		_putchar(',');
 		_putchar(' ');
