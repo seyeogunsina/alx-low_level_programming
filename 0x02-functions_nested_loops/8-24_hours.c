@@ -1,5 +1,6 @@
-#include <stdio.h>
+#include "main.h"
 
+int print(int n);
 /**
  * jack_bauer - prints every minutes of the day
  * returns: void
@@ -14,31 +15,25 @@ void jack_bauer(void)
 	{
 		for (j = 0; j < 60; j++)
 		{
-			if (i < 10)
-			{
-				putchar('0');
-				putchar('0' + i);
-			}
-			else
-			{
-				if (i/10)
-					print(i/10);
-				putchar(i % 10 + '0');
-			}
-			putchar(':');
-			if (j < 10)
-			{
-				putchar('0');
-				putchar('0' + j);
-			}
-			else
-			{
-				if (j/10)
-					print(j/10);
-				putchar(j % 10 + '0');
-			}
-
-			putchar('\n');
+			print(i);
+			_putchar(':');
+			print(j);
+			_putchar('\n');
 		}
+	}
+}
+
+int print(int n)
+{
+	if (n < 10)
+	{
+		_putchar('0');
+		_putchar('0' + n);
+	}
+	else if (n > 10)
+	{
+		if (n/10)
+			print(n/10);
+		_putchar(n%10 + '0');
 	}
 }
