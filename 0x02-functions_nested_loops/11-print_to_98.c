@@ -54,7 +54,7 @@ void print(int n)
 
 void print_char(int j)
 {
-	print(j);	
+	print(j);
 	if (j != 98)
 	{
 		_putchar(',');
