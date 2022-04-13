@@ -16,7 +16,7 @@ void times_table(void)
 		for (j = 0; j < 10; j++)
 		{
 			result = i * j;
-			if (result < 10)
+			if (result < 10 && j > 0)
 				_putchar(' ');
 			print(result);
 			if (j < 9)
