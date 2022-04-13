@@ -9,7 +9,7 @@ int add(int, int);
  * Return: an integer
  */
 
-int add (int m, int n)
+int add(int m, int n)
 {
 	int result = m + n;
 
