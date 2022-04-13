@@ -1,6 +1,7 @@
 #include "main.h"
 
 void print(int n);
+void print_char(int j);
 
 /**
  * print_to_98 - prints number from n to 98
