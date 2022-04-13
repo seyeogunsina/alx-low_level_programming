@@ -16,12 +16,12 @@ void times_table(void)
 		for (j = 0; j < 10; j++)
 		{
 			result = i * j;
+			if (result < 10)
+				_putchar(' ');
 			print(result);
 			if (j < 9)
 				_putchar(',');
 			_putchar(' ');
-			if (result < 10)
-				_putchar(' ');
 		}
 		_putchar('\n');
 	}
@@ -35,7 +35,7 @@ void times_table(void)
 
 void print (int n)
 {
-	if (n /10)
-		print(n/10);
+	if (n / 10)
+		print(n / 10);
 	_putchar(n % 10 + '0');
 }
