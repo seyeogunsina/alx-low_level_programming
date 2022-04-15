@@ -19,23 +19,22 @@ int main(void)
 		if ((i % 3 == 0) && (i % 5 == 0))
 		{
 			printf("%s", str3);
-			putchar(' ');
 		}
 		else if (i % 3 == 0)
 		{
 			printf("%s", str1);
-			putchar(' ');
 		}
 		else if (i % 5 == 0)
 		{
 			printf("%s", str2);
-			putchar(' ');
 		}
 		else
 		{
 			printf("%d", i);
-			putchar(' ');
 		}
+
+		if (i < 100)
+			putchar(' ');
 	}
 	putchar('\n');
 
