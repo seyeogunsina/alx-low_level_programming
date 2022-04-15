@@ -9,9 +9,9 @@
 
 int main(void)
 {
-	char str1[] = "fizz";
-	char str2[] = "buzz";
-	char str3[] = "fizzbuzz";
+	char str1[] = "Fizz";
+	char str2[] = "Buzz";
+	char str3[] = "FizzBuzz";
 	int i;
 
 	for (i = 1; i <= 100; i++)
