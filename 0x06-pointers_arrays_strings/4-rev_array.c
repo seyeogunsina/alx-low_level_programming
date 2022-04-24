@@ -8,19 +8,17 @@
 
 void reverse_array(int *a, int n)
 {
-	char str[];
-	int i = 0;
+	int i, j;
 
-	while (n <= 0)
+	i = 0;
+	n = n - 1;
+
+	while (i < n)
 	{
-		str[i] = a[n];
+		j = a[i];
+		a[i] = a[n];
+		a[n] = j;
 		i++;
 		n--;
-	}
-
-	while (n < i)
-	{
-		*(a + n) = str[n];
-		n++;
 	}
 }
