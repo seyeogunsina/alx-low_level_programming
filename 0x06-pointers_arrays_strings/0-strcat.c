@@ -18,6 +18,8 @@ char *_strcat(char *dest, char *src)
 		len++;
 
 	len--;
+	*(dest + len) = ' ';
+	len++;
 	while (*(src + i) != '\0')
 	{
 		*(dest + len) = *(src + i);
