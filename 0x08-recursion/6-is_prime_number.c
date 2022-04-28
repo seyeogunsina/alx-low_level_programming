@@ -17,10 +17,10 @@ int prime_test(int a, int b)
 	{
 		if (a % b == 0)
 			return (0);
-	}
-	else
-	{
-		return (prime_test(a, b + 1));
+		else
+		{
+			return (prime_test(a, b + 1));
+		}
 	}
 }
 
