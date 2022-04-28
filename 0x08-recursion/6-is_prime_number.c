@@ -20,7 +20,7 @@ int prime_test(int a, int b)
 	}
 	else
 	{
-		prime_test(a, b + 1);
+		return (prime_test(a, b + 1));
 	}
 }
 
