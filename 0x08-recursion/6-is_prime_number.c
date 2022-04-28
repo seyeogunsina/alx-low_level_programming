@@ -9,7 +9,7 @@
 
 int prime_test(int a, int b)
 {
-	if (b == a)
+	if (a == 1 || b == a)
 	{
 		return (1);
 	}
