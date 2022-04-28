@@ -9,19 +9,22 @@
 
 int prime_test(int a, int b)
 {
-	if (a == 1 || b == a)
+	if (a == 1)
+	{
+		return (0);
+	}
+
+	if (a == b)
 	{
 		return (1);
 	}
-	else
+
+	if (a % b == 0)
 	{
-		if (a % b == 0)
-			return (0);
-		else
-		{
-			return (prime_test(a, b + 1));
-		}
+		return (0);
 	}
+
+	return (prime_test(a, b + 1));
 }
 
 /**
