@@ -13,7 +13,7 @@ int prime_test(int a, int b)
 	{
 		return (1);
 	}
-	else if (b != 1 && b != a)
+	else
 	{
 		if (a % b == 0)
 			return (0);
@@ -32,5 +32,5 @@ int prime_test(int a, int b)
 
 int is_prime_number(int n)
 {
-	return (prime_test(n, 1));
+	return (prime_test(n, 2));
 }
