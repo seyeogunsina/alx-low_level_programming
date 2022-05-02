@@ -11,7 +11,10 @@
 
 int main(int argc, char *argv[])
 {
-	int res, i;
+	int res, i, count;
+
+	count = 1;
+	res = 0;
 
 	if (argc == 1)
 	{
@@ -19,19 +22,19 @@ int main(int argc, char *argv[])
 		return (0);
 	}
 
-	for (i = 1; i < argc; i++)
+	while (count < argc)
 	{
-		if (!atoi(argv[i]))
+		for (i = 0; argv[count][i] != '\0'; i++)
 		{
-			printf("Error\n");
-			return (1);
+			if (!(isdigit(argv[count][i])))
+			{
+				printf("Error\n");
+				return (1);
+			}
 		}
-		else
-		{
-			res += atoi(argv[i]);
-		}
+		res += atoi(argv[count]);
+		count++;
 	}
-
 	printf("%d\n", res);
 	return (0);
 }
