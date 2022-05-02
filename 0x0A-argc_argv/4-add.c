@@ -27,7 +27,7 @@ int main(int argc, char *argv[])
 		}
 		else
 		{
-			res += argv[i];
+			res += atoi(argv[i]);
 		}
 	}
 
