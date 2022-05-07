@@ -55,7 +55,6 @@ char *str_concat(char *s1, char *s2)
 	for (i = len1; i < len; i++)
 	{
 		str_cat[i] = s2[j];
-		i++;
 		j++;
 	}
 
