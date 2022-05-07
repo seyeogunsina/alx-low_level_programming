@@ -15,12 +15,9 @@ int str_len(char *str)
 	{
 		return (0);
 	}
-	else
+	while (str[l] != '\0')
 	{
-		while (str[l] != '\0')
-		{
-			l++;
-		}
+		l++;
 	}
 	return (l);
 }
