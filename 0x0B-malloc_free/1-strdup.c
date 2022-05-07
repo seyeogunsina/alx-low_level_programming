@@ -2,7 +2,9 @@
 #include <stdlib.h>
 
 /**
- *
+ * _strdup - creates a duplicate of a string at a new memory location
+ * @str: the string to be copied
+ * Return: a pointer to the duplicated string. It returns NULL
  */
 
 char *_strdup(char *str)
