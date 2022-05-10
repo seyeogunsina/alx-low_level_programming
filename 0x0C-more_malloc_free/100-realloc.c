@@ -31,7 +31,7 @@ void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size)
 	ptr_new = malloc(new_size);
 	if (ptr_new == NULL)
 		return (NULL);
-	if (new_size < old_size)
+	if (new_size > old_size)
 		max = old_size;
 	for (i = 0; i < max; i++)
 		ptr_new[i] = ptr_old[i];
