@@ -1,6 +1,7 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include "3-calc.h"
+#include <string.h>
 
 /**
  * get_op_func - used to select a function based on the operator
