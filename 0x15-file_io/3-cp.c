@@ -47,11 +47,11 @@ int main(int argc, char *argv[])
 	n_letters = 1024;
 	while (n_letters == 1024)
 	{
-		n_letters = read(file_from, buf, 1024);
+		n_letters = read(file_from, buffer, 1024);
 		if (n_letters == -1)
 			check_error(-1, 0, argv);
 
-		n_write = write(file_to, buf, n_letters);
+		n_write = write(file_to, buffer, n_letters);
 		if (n_write == -1)
 			check_error(0, -1, argv);
 	}
