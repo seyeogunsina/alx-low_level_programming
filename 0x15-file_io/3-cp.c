@@ -45,7 +45,7 @@ int main(int argc, char *argv[])
 	check_error(file_from, file_to, argv);
 
 	n_letters = 1024;
-	while (n_letters <= 1024)
+	while (n_letters == 1024)
 	{
 		n_letters = read(file_from, buffer, 1024);
 		if (n_letters == -1)
